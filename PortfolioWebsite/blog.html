@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog | Lesego Mtshixa</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>My Blog</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="blog.html" class="active">Blog</a>
+      <a href="contact.html">Contact</a>
+      <button id="theme-toggle" class="btn"> Dark Mode</button>
+      
+    </nav>
+  </header>
+
+  <section class="blog-posts">
+    <article data-aos="fade-up">
+      <h2> My First C# Console Project</h2>
+      <p>I learned how to use loops, conditions, 
+        and file I/O to create a To-Do List app...</p>
+    </article>
+
+    <article data-aos="fade-up">
+      <h2> Tips for First-Year Software Dev Students</h2>
+      <p>Start with small projects, push them to GitHub, 
+        and focus on mastering your fundamentals...</p>
+    </article>
+  </section>
+
+  <footer>
+    <p>© 2025 Lesego Mtshixa</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>AOS.init({ duration: 1000, once: true });</script>
+</body>
+</html>
