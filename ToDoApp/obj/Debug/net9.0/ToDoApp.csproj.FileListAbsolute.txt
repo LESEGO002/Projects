@@ -1,0 +1,15 @@
+C:\Users\leseg\OneDrive\Desktop\Projects\ToDoApp\obj\Debug\net9.0\ToDoApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leseg\OneDrive\Desktop\Projects\ToDoApp\obj\Debug\net9.0\ToDoApp.AssemblyInfoInputs.cache
+C:\Users\leseg\OneDrive\Desktop\Projects\ToDoApp\obj\Debug\net9.0\ToDoApp.AssemblyInfo.cs
+C:\Users\leseg\OneDrive\Desktop\Projects\ToDoApp\obj\Debug\net9.0\ToDoApp.csproj.CoreCompileInputs.cache
+C:\Users\leseg\OneDrive\Desktop\Projects\ToDoApp\obj\Debug\net9.0\ToDoApp.sourcelink.json
+C:\Users\leseg\OneDrive\Desktop\Projects\ToDoApp\bin\Debug\net9.0\ToDoApp.exe
+C:\Users\leseg\OneDrive\Desktop\Projects\ToDoApp\bin\Debug\net9.0\ToDoApp.deps.json
+C:\Users\leseg\OneDrive\Desktop\Projects\ToDoApp\bin\Debug\net9.0\ToDoApp.runtimeconfig.json
+C:\Users\leseg\OneDrive\Desktop\Projects\ToDoApp\bin\Debug\net9.0\ToDoApp.dll
+C:\Users\leseg\OneDrive\Desktop\Projects\ToDoApp\bin\Debug\net9.0\ToDoApp.pdb
+C:\Users\leseg\OneDrive\Desktop\Projects\ToDoApp\obj\Debug\net9.0\ToDoApp.dll
+C:\Users\leseg\OneDrive\Desktop\Projects\ToDoApp\obj\Debug\net9.0\refint\ToDoApp.dll
+C:\Users\leseg\OneDrive\Desktop\Projects\ToDoApp\obj\Debug\net9.0\ToDoApp.pdb
+C:\Users\leseg\OneDrive\Desktop\Projects\ToDoApp\obj\Debug\net9.0\ToDoApp.genruntimeconfig.cache
+C:\Users\leseg\OneDrive\Desktop\Projects\ToDoApp\obj\Debug\net9.0\ref\ToDoApp.dll
