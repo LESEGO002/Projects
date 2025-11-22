@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="app">
+
+            <h1>Simple Weather Dashboard</h1>
+
+            <div class="controls">
+                <div class="search-card">
+                    <input id="cityInput" placeholder="Enter city (e.g.Johannesburg)"/>
+                    <button id="searchbtn" class="btn">Search</button>
+                </div>
+                <button id="unitbtn" class="toggle">C</button>
+            </div>
+    </header>
+            
+
+            <main>
+                <Section class="card">
+                    <div class="mainContent">
+                        <div class="current">
+                            <div class="left">
+                                <div style="display:flex; align-items:center; gap:12px">
+                                    <div>
+                                        <div>
+                                            <div id="location" style="font-weight:700; font-size:18px">-</div>
+                                            <div id="desc" class="desc">-</div>
+                                        </div>
+                                         <div class="temp" id="temp">--°</div>
+                                    </div>
+                                     <div class="meta" id="meta">Humidity: — | Wind: —</div>
+
+                                    <div class="forecast" id="forecast"></div>
+                                </div>
+                                 <div class="weather-icon">
+                                <img id="icon" src="" alt="weather icon">
+
+                            </div>
+                            
+                        </div>
+
+                    </div>
+
+                     <div class="footer">
+                        Tip: Enter a city name and press Search. Uses OpenWeatherMap API (you need an API key).
+                     </div>
+
+                </Section>
+
+                  <aside class="aside card">
+                     <h3 style="margin-top:0">Details</h3>
+                        <div class="info-row">
+                            <div class="info"><div id="feels">—</div><small>Feels like</small></div>
+                            <div class="info"><div id="pressure">—</div><small>Pressure</small></div>
+                            <div class="info"><div id="sun">—</div><small>Sunrise / Sunset</small></div>
+                        </div>
+
+                    <div style="margin-top:12px">
+                        <label style="font-size:13px; color:var(--muted)">Quick cities</label>
+                            <div style="display:flex; gap:8px; margin-top:8px; flex-wrap:wrap">
+                                <button class="btn" data-city="London">London</button>
+                                <button class="btn" data-city="New York">New York</button>
+                                <button class="btn" data-city="Tokyo">Tokyo</button>
+                                <button class="btn" data-city="Johannesburg">Johannesburg</button>
+                            </div>
+                    </div>
+                    </aside>
+             </main>
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
